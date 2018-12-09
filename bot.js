@@ -7,10 +7,10 @@ client.on('ready', () => {
 });
 
 client.on('ready', async() => {
-var server = "520161821919936513"; // ايدي السررفر
-var channel = "520161919684837388";//ايدي الروم
+var server = "521330287234514957"; // ايدي السررفر
+var channel = "521330287234514959";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**xSh3Dy_ NUMBER ONE**')
+    client.guilds.get(server).channels.get(channel).send('**Amz Never Die**')
     },305);
 })
 
@@ -29,4 +29,5 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
    message.delete()
   }
  });
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN); // لا تغير فيها شي
+
